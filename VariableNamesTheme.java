@@ -1,6 +1,5 @@
 public class VariableNamesTheme {
     public static void main(String[] args) {
-        // Блок №1. РАЗНЫЕ ПЕРЕМЕННЫЕ
         System.out.println("Блок №1");
         System.out.println("РАЗНЫЕ ПЕРЕМЕННЫЕ");
 
@@ -9,36 +8,36 @@ public class VariableNamesTheme {
         System.out.println("Цифра: " + 7);
 
         // Сумма чисел
-        int digitSumm = 7 + 7;
-        System.out.println("Сумма чисел: " + digitSumm);
+        int digitSum = 7 + 7;
+        System.out.println("Сумма чисел: " + digitSum);
 
         // Произведение цифр
-        int digitMulti = 7 * 7;
-        System.out.println("Произведение цифр: " + digitMulti);
+        int digitMultiply = 7 * 7;
+        System.out.println("Произведение цифр: " + digitMultiply);
 
         // Максимальное число
-        int maxInt = 2147483647;
-        System.out.println("Максимальное число: " + maxInt);
+        int max = 2147483647;
+        System.out.println("Максимальное число: " + max);
 
         // Количество десятков
-        int countTen = maxInt / 10;
-        System.out.println("Количество десятков: " + countTen);
+        int tenCount = max / 10;
+        System.out.println("Количество десятков: " + tenCount);
 
         // Вес собаки
         double dogWeight = 34.7;
         System.out.println("Вес собаки: " + dogWeight + " кг");
 
         // Исходное число
-        int startDigit = 77777777;
-        System.out.println("Исходное число: " + startDigit);
+        int originalNumber = 77777777;
+        System.out.println("Исходное число: " + originalNumber);
 
         // Процент по вкладу
         double debetPercent = 23.7;
         System.out.println("Процент по вкладу: " + debetPercent + "%");
 
         // Символ &
-        char umpersant = '&';
-        System.out.println("Символ &: " + umpersant);
+        char ampersand = '&';
+        System.out.println("Символ &: " + ampersand);
 
         // Код ошибки
         int errorCode = 99;
@@ -49,8 +48,8 @@ public class VariableNamesTheme {
         System.out.println("Тип сообщения: " + messageType);
 
         // Число нулей
-        int nullCount = 10;
-        System.out.println("Число нулей: " + nullCount);
+        int zeroCount = 10;
+        System.out.println("Число нулей: " + zeroCount);
 
         // Уникальное число
         var uniqueNumber = 324234324;
@@ -74,7 +73,7 @@ public class VariableNamesTheme {
 
         // Пункт меню
         String menuItem = "Настройки";
-        System.out.println("Счет в игреПункт меню: " + menuItem);
+        System.out.println("Пункт меню: " + menuItem);
 
         // Стоимость кофе
         int coffeCost = 195;
@@ -89,12 +88,12 @@ public class VariableNamesTheme {
         System.out.println("Окончание диапазона: " + rangeEnd);
 
         // Имя работника месяца
-        String empOfMonth = "Алексей";
-        System.out.println("Имя работника месяца: " + empOfMonth);
+        String employeeOfMonth = "Алексей";
+        System.out.println("Имя работника месяца: " + employeeOfMonth);
 
         // Название электронной книги
-        String ebookName = "Три мушкетера";
-        System.out.println("Название электронной книги: " + ebookName);
+        String ebookTitle = "Три мушкетера";
+        System.out.println("Название электронной книги: " + ebookTitle);
 
         // Размер
         String size = "XXL";
@@ -113,81 +112,79 @@ public class VariableNamesTheme {
         System.out.println("Счетчик: " + filePath);
 
         // Количество чисел в строке
-        int countDigitInRow = 50;
-        System.out.println("Количество чисел в строке: " + countDigitInRow);
+        int digitInRowCount = 50;
+        System.out.println("Количество чисел в строке: " + digitInRowCount);
 
         // BOOLEAN-ПЕРЕМЕННЫЕ
-        System.out.println("\nBOOLEAN-ПЕРЕМЕННЫЕ");
+        System.out.println("\nБлок №2");
+        System.out.println("BOOLEAN-ПЕРЕМЕННЫЕ");
 
         // Сотни равны?
-        boolean equalHundreds = true;
-        System.out.println("Сотни равны? -" + equalHundreds);
+        boolean isHundredsEqual = true;
+        System.out.println("Сотни равны? -" + isHundredsEqual);
 
         // Компьютер включен?
-        boolean compTurnOn = false;
-        System.out.println("Компьютер включен? -" + compTurnOn);
+        boolean isComputerTurnOn = false;
+        System.out.println("Компьютер включен? -" + isComputerTurnOn);
 
         // Есть равные цифры?
-        boolean equalDigitExist = true;
-        System.out.println("Есть равные цифры? -" + equalDigitExist);
+        boolean hasEqualDigit = true;
+        System.out.println("Есть равные цифры? -" + hasEqualDigit);
 
         // Служба создана?
-        boolean serviceCreated = false;
-        System.out.println("Служба создана? -" + serviceCreated);
+        boolean isServiceCreated = false;
+        System.out.println("Служба создана? -" + isServiceCreated);
 
         // Файл пустой?
-        boolean fileEmpty = true;
-        System.out.println("Файл пустой? -" + fileEmpty);
+        boolean isFileEmpty = true;
+        System.out.println("Файл пустой? -" + isFileEmpty);
 
         // Соединение активное?
-        boolean connectionActive = false;
-        System.out.println("Соединение активное? -" + connectionActive);
+        boolean isConnectionActive = false;
+        System.out.println("Соединение активное? -" + isConnectionActive);
 
         // Новый?
         boolean isNew = true;
         System.out.println("Новый? -" + isNew);
 
         // Электронная почта действительная?
-        boolean emailValid = false;
-        System.out.println("Электронная почта действительная? -" + emailValid);
+        boolean isEmailValid = false;
+        System.out.println("Электронная почта действительная? -" + isEmailValid);
 
         // Имеются уникальные строки?
-        boolean haveUniqueRows = true;
-        System.out.println("Имеются уникальные строки? -" + haveUniqueRows);
+        boolean hasUniqueRows = true;
+        System.out.println("Имеются уникальные строки? -" + hasUniqueRows);
         
         // АББРЕВИАТУРЫ
-        System.out.println("\nАББРЕВИАТУРЫ");
+        System.out.println("\nБлок №3");
+        System.out.println("АББРЕВИАТУРЫ");
 
         // Старый universally unique identifier
-        String uuid = "8ca0fd81-fd03-438c-8730-c6c4e7ef4aa9";
-        System.out.println("Старый universally unique identifier: " + uuid);
+        String oldUuid = "8ca0fd81-fd03-438c-8730-c6c4e7ef4aa9";
+        System.out.println("Старый universally unique identifier: " + oldUuid);
 
         // Производитель оперативной памяти
-        String ramFactory = "Kingstone";
-        System.out.println("Производитель оперативной памяти: " + ramFactory);
+        String ramManufacturer = "Kingstone";
+        System.out.println("Производитель оперативной памяти: " + ramManufacturer);
 
         // Емкость жесткого диска
         int hddCapacity = 512;
         System.out.println("Емкость жесткого диска: " + hddCapacity + " Gb");
 
         // Определение термина протокола передачи гипертекста
-        String httpDef = "HTTP предназначен для передачи данных, включая текст, HTML-страницы.";
-        System.out.println("Определение термина протокола передачи гипертекста: " + httpDef);
+        String httpDefinition = "HTTP предназначен для передачи данных, включая текст, HTML-страницы.";
+        System.out.println("Определение термина протокола передачи гипертекста: " + httpDefinition);
 
         // Сокращенный uniform resource locator
-        String url = "https://ya.ru";
-        System.out.println("Сокращенный uniform resource locator: " + url);
+        String urlShort = "https://ya.ru";
+        System.out.println("Сокращенный uniform resource locator: " + urlShort);
 
         // Новый идентификатор клиента
-        String newId = "123MRO456";
-        System.out.println("Новый идентификатор клиента: " + newId);
+        String newCid = "123MRO456";
+        System.out.println("Новый идентификатор клиента: " + newCid);
 
         // Количество символов в american standard code for information interchange
-        String ascii = "american standard code for information interchange";
-        String staticText = "Количество символов в american standard code for information interchange: ";
-        int countSymRow = ascii.length();
-        int countAsciiSym = 128;
-        System.out.println(staticText + countSymRow);
-        System.out.println(staticText + countAsciiSym);
+        String staticText = "Количество символов в american standard code for information interchange: 128";
+        System.out.println(staticText);
     }
 }
