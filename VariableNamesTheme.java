@@ -12,8 +12,8 @@ public class VariableNamesTheme {
         System.out.println("Сумма чисел: " + digitSum);
 
         // Произведение цифр
-        int digitMultiply = 7 * 7;
-        System.out.println("Произведение цифр: " + digitMultiply);
+        int digitMultiplication = 7 * 7;
+        System.out.println("Произведение цифр: " + digitMultiplication);
 
         // Максимальное число
         int max = 2147483647;
@@ -120,36 +120,36 @@ public class VariableNamesTheme {
         System.out.println("BOOLEAN-ПЕРЕМЕННЫЕ");
 
         // Сотни равны?
-        boolean isHundredsEqual = true;
-        System.out.println("Сотни равны? -" + isHundredsEqual);
+        boolean isEqualHundreds = true;
+        System.out.println("Сотни равны? -" + isEqualHundreds);
 
         // Компьютер включен?
-        boolean isComputerTurnOn = false;
-        System.out.println("Компьютер включен? -" + isComputerTurnOn);
+        boolean isTurnOnComputer = false;
+        System.out.println("Компьютер включен? -" + isTurnOnComputer);
 
         // Есть равные цифры?
         boolean hasEqualDigit = true;
         System.out.println("Есть равные цифры? -" + hasEqualDigit);
 
         // Служба создана?
-        boolean isServiceCreated = false;
-        System.out.println("Служба создана? -" + isServiceCreated);
+        boolean isCreatedService = false;
+        System.out.println("Служба создана? -" + isCreatedService);
 
         // Файл пустой?
-        boolean isFileEmpty = true;
-        System.out.println("Файл пустой? -" + isFileEmpty);
+        boolean isEmptyFile = true;
+        System.out.println("Файл пустой? -" + isEmptyFile);
 
         // Соединение активное?
-        boolean isConnectionActive = false;
-        System.out.println("Соединение активное? -" + isConnectionActive);
+        boolean isActiveConnection = false;
+        System.out.println("Соединение активное? -" + isActiveConnection);
 
         // Новый?
         boolean isNew = true;
         System.out.println("Новый? -" + isNew);
 
         // Электронная почта действительная?
-        boolean isEmailValid = false;
-        System.out.println("Электронная почта действительная? -" + isEmailValid);
+        boolean isValidEmail = false;
+        System.out.println("Электронная почта действительная? -" + isValidEmail);
 
         // Имеются уникальные строки?
         boolean hasUniqueRows = true;
@@ -176,15 +176,15 @@ public class VariableNamesTheme {
         System.out.println("Определение термина протокола передачи гипертекста: " + httpDefinition);
 
         // Сокращенный uniform resource locator
-        String urlShort = "https://ya.ru";
-        System.out.println("Сокращенный uniform resource locator: " + urlShort);
+        String shortUrl = "https://ya.ru";
+        System.out.println("Сокращенный uniform resource locator: " + shortUrl);
 
         // Новый идентификатор клиента
         String newCid = "123MRO456";
         System.out.println("Новый идентификатор клиента: " + newCid);
 
         // Количество символов в american standard code for information interchange
-        String staticText = "Количество символов в american standard code for information interchange: 128";
-        System.out.println(staticText);
+        String countSymbolsInAscii = "Количество символов в american standard code for information interchange: 128";
+        System.out.println(countSymbolsInAscii);
     }
 }
