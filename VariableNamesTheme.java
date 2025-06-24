@@ -184,7 +184,7 @@ public class VariableNamesTheme {
         System.out.println("Новый идентификатор клиента: " + newCid);
 
         // Количество символов в american standard code for information interchange
-        String countSymbolsInAscii = "Количество символов в american standard code for information interchange: 128";
-        System.out.println(countSymbolsInAscii);
+        String asciiSymbolsCount = "Количество символов в american standard code for information interchange: 128";
+        System.out.println(asciiSymbolsCount);
     }
 }
